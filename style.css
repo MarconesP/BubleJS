@@ -1,0 +1,10 @@
+body {
+    /*le, overflow: hidden; va éviter que la page se case, (il enléve tous que depasse le body*/
+    overflow: hidden;
+    min-height: 100vh;
+}
+.bubble {
+    position: absolute;
+    border-radius: 300px;
+    background: rgba(255, 166, 0, 0.6)
+}
